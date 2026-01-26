@@ -1,0 +1,17 @@
+dimension = 2
+N = 2
+pitch = 1.26
+r_fuel = 0.41
+r_guide = 0.56
+cells_per_pitch = 50
+f_ins = 1
+guide_positions = 0,0
+solver_type = COUPLED
+scheme_type = IMPLICIT_EULER
+boundary_condition = NEUMANN
+tf = 500
+dt = 0.1
+n_out = 100
+initial_phi = 1e10
+initial_T = 300.0
+length_unit = cm
